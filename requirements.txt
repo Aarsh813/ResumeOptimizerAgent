@@ -1,0 +1,30 @@
+# Resume Optimizer — Python Dependencies
+
+# Core LangGraph + LangChain
+langgraph>=0.2.0
+langchain-core>=0.2.0
+
+# LLM Providers (install the one(s) you need)
+langchain-groq>=0.1.0           # Groq — recommended free option
+langchain-google-genai>=1.0.0   # Google Gemini
+# langchain-ollama>=0.1.0       # Ollama local (uncomment if using Ollama)
+
+
+# HTTP + HTML parsing for JD scraping
+httpx>=0.27.0
+beautifulsoup4>=4.12.0
+
+# PDF text extraction (for ATS checker)
+pdfminer.six>=20221105
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Nice CLI output
+rich>=13.0.0
+
+# Optional: faster PDF extraction fallback
+# pymupdf>=1.24.0
+
+# Optional: if you want to use Playwright for JS-rendered pages
+# playwright>=1.44.0
